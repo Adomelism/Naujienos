@@ -41,5 +41,58 @@ export const SECONDARY_NEWS_DATA =
             newsDate: "2021-09-02"
         },
 
-
     ]
+
+export const PODCAST_DATA =
+[
+    {
+        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        podcastLength: "Trukmė: 7:55",
+        podcastTitle: "Pojūčius pirštų galiukams sugrąžinti gali smegenų implantas",
+        podcastDate: "2021-09-02",
+    },
+    {
+        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        podcastLength: "Trukmė: 7:55",
+        podcastTitle: "Elektrinių povandeninių dronų kompanija pasirengusi tapti vandenynų „SpaceX“",
+        podcastDate: "2021-08-25",
+    },
+    {
+        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        podcastLength: "Trukmė: 9:22",
+        podcastTitle: "Kaip gyvensime 2031-aisiais? 10 esminių prognozių",
+        podcastDate: "2021-08-18",
+    },
+    {
+        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        podcastLength: "Trukmė: 8:32",
+        podcastTitle: "Jei virtualus pasaulis taps realybe, jos neturėtų valdyti „Facebook“",
+        podcastDate: "2021-08-11",
+    },
+]
+
+export const EVENTS_DATA = 
+[
+    {
+        eventImageElementSrc: "https://codeacademy.lt/wp-content/uploads/2023/01/Screenshot-2023-01-13-150320-300x298.png",
+        eventDay: "17",
+        eventMonth: "Sau",
+        eventLocation: "Online",
+        eventTitle: "CodeAcademy Talents"
+
+    },
+    {
+        eventImageElementSrc: "",
+        eventDay: "17",
+        eventMonth: "Sau",
+        eventLocation: "Online",
+        eventTitle: "CodeAcademy Talents"
+    },
+    {
+        eventImageElementSrc: "",
+        eventDay: "17",
+        eventMonth: "Sau",
+        eventLocation: "Online",
+        eventTitle: "CodeAcademy Talents"
+    },
+]
