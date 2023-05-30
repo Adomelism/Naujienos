@@ -9,6 +9,7 @@ export default function podcast(data) {
     podcastControls.classList.add('podcast-controls')
 
     const podcastImage = document.createElement('img')
+    podcastImage.classList.add('podcast-image')
     podcastImage.src = imageSrc
 
     const podcastLength = document.createElement('span')

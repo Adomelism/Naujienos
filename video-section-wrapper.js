@@ -10,7 +10,6 @@ export default function videoSectionWrapper(title) {
 
     const videoWrapper = document.createElement('div')
     videoWrapper.classList.add('video-wrapper')
-    videoWrapper.src = "https://www.youtube.com/embed/b8dGCsP75HA"
 
     const videoExtraText = document.createElement('span')
     videoExtraText.classList.add('video-extra-text')
