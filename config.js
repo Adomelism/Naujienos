@@ -74,25 +74,28 @@ export const PODCAST_DATA =
 export const EVENTS_DATA = 
 [
     {
-        eventImageSrc: "https://codeacademy.lt/wp-content/uploads/2023/01/Screenshot-2023-01-13-150320-300x298.png",
-        eventDay: "17",
-        eventMonth: "Sau",
-        eventLocation: "Online",
-        eventTitle: "CodeAcademy Talents"
+        imageSrc: "https://codeacademy.lt/wp-content/uploads/2023/01/Screenshot-2023-01-13-150320-300x298.png",
+        day: "17",
+        url: "#",
+        month: "Sau",
+        location: "Online",
+        title: "CodeAcademy Talents"
 
     },
     {
-        eventImageSrc: "",
-        eventDay: "17",
-        eventMonth: "Sau",
-        eventLocation: "Online",
-        eventTitle: "CodeAcademy Talents"
+        imageSrc: "",
+        day: "18",
+        url: "#",
+        month: "Sau",
+        location: "Online",
+        title: "CodeAcademy Talents"
     },
     {
-        eventImageSrc: "",
-        eventDay: "17",
-        eventMonth: "Sau",
-        eventLocation: "Online",
-        eventTitle: "CodeAcademy Talents"
+        imageSrc: "",
+        day: "19",
+        url: "#",
+        month: "Sau",
+        location: "Online",
+        title: "CodeAcademy Talents"
     },
 ]

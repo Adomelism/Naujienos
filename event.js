@@ -2,8 +2,7 @@ export default function event(data) {
     const event = document.createElement('div')
     event.classList.add('event')
 
-    let {day, imageSrc, location, month, title} = event;
-    // console.log(data)
+    let {day, imageSrc, location, month, title} = data;
 
     const imageWrapper = document.createElement('div')
     imageWrapper.classList.add('image-wrapper')
@@ -42,10 +41,6 @@ export default function event(data) {
     eventDate.append(eventDay, eventmonth)
     eventInfo.append(eventLocation, eventTitle)
     event.append(imageWrapper, eventContent)
-
-
-    console.log(data)
-
 
     return event;
 }
