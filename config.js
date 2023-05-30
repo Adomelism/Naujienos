@@ -74,7 +74,7 @@ export const PODCAST_DATA =
 export const EVENTS_DATA = 
 [
     {
-        eventImageElementSrc: "https://codeacademy.lt/wp-content/uploads/2023/01/Screenshot-2023-01-13-150320-300x298.png",
+        eventImageSrc: "https://codeacademy.lt/wp-content/uploads/2023/01/Screenshot-2023-01-13-150320-300x298.png",
         eventDay: "17",
         eventMonth: "Sau",
         eventLocation: "Online",
@@ -82,14 +82,14 @@ export const EVENTS_DATA =
 
     },
     {
-        eventImageElementSrc: "",
+        eventImageSrc: "",
         eventDay: "17",
         eventMonth: "Sau",
         eventLocation: "Online",
         eventTitle: "CodeAcademy Talents"
     },
     {
-        eventImageElementSrc: "",
+        eventImageSrc: "",
         eventDay: "17",
         eventMonth: "Sau",
         eventLocation: "Online",
