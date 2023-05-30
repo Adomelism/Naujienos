@@ -1,7 +1,7 @@
 import {SECONDARY_NEWS_DATA} from './config.js';
 import newsItem from './newsItem.js';
 
-export default function secondaryNews() {
+export default function secondaryNews(data) {
     const secondaryNews = document.createElement('div');
     secondaryNews.classList.add('secondary-news');
 

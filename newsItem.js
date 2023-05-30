@@ -4,10 +4,11 @@ export default function newsItem(data) {
     newsItem.classList.add('news-item');
 
     const linkNewsItem = document.createElement('a');
+    linkNewsItem.href = '#'
     newsItem.append(linkNewsItem);
 
     const imageWrapper = document.createElement('div');
-    imageWrapper.classList.add('news-wrapper');
+    imageWrapper.classList.add('image-wrapper');
 
     const imageElement = document.createElement('img');
     imageWrapper.append(imageElement);
