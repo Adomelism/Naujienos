@@ -46,28 +46,28 @@ export const SECONDARY_NEWS_DATA =
 export const PODCAST_DATA =
 [
     {
-        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
-        podcastLength: "Trukmė: 7:55",
-        podcastTitle: "Pojūčius pirštų galiukams sugrąžinti gali smegenų implantas",
-        podcastDate: "2021-09-02",
+        imageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        length: "Trukmė: 7:55",
+        title: "Pojūčius pirštų galiukams sugrąžinti gali smegenų implantas",
+        date: "2021-09-02",
     },
     {
-        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
-        podcastLength: "Trukmė: 7:55",
-        podcastTitle: "Elektrinių povandeninių dronų kompanija pasirengusi tapti vandenynų „SpaceX“",
-        podcastDate: "2021-08-25",
+        imageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        length: "Trukmė: 7:55",
+        title: "Elektrinių povandeninių dronų kompanija pasirengusi tapti vandenynų „SpaceX“",
+        date: "2021-08-25",
     },
     {
-        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
-        podcastLength: "Trukmė: 9:22",
-        podcastTitle: "Kaip gyvensime 2031-aisiais? 10 esminių prognozių",
-        podcastDate: "2021-08-18",
+        imageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        length: "Trukmė: 9:22",
+        title: "Kaip gyvensime 2031-aisiais? 10 esminių prognozių",
+        date: "2021-08-18",
     },
     {
-        podcastImageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
-        podcastLength: "Trukmė: 8:32",
-        podcastTitle: "Jei virtualus pasaulis taps realybe, jos neturėtų valdyti „Facebook“",
-        podcastDate: "2021-08-11",
+        imageSrc: "https://codeacademy.lt/wp-content/uploads/2021/04/Untitled-design-260x260.png",
+        length: "Trukmė: 8:32",
+        title: "Jei virtualus pasaulis taps realybe, jos neturėtų valdyti „Facebook“",
+        date: "2021-08-11",
     },
 ]
 

@@ -5,15 +5,21 @@ export default function podcastsWrapper(title) {
     const podcastsWrapper = document.createElement('div')
     podcastsWrapper.classList.add('podcasts-wrapper')
 
-    if (title) {
-        const sectionTitle = document.createElement('h2')
-        sectionTitle.classList.add('section-title')
-        sectionTitle.textContent = title
-        podcastsWrapper.append(sectionTitle)
-    }
+    
+    const sectionTitle = document.createElement('h2')
+    sectionTitle.classList.add('section-title')
+    sectionTitle.textContent = title
+    
+    
+    const podcastsList = document.createElement('div')
+    podcastsList.classList.add('podcasts-wrapper')
+    
+    podcastsWrapper.append(sectionTitle, podcastsList)
 
     PODCAST_DATA.forEach(podcastData => {
-        let {podcastImageSrc, podcastLength, podcastTitle, podcastDate} = podcastData
+
+        podcastsList.append(podcast(podcastData))
+
         // const podcastElement = podcast(podcastData)
         // console.log(podcastData)
         // podcastsWrapper.append(podcastElement)
