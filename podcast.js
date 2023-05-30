@@ -29,8 +29,9 @@ export default function podcast() {
     podcastDate.classList.add('podcast-date')
     podcastDate.textContent = podcastDate
 
-    podcast.append(podcastControls, podcastContent, podcastTitle, podcastDate)
+    podcast.append(podcastControls, podcastContent)
     podcastControls.append(podcastImage, podcastLength, podcastPlay)
+    podcastContent.append(podcastTitle, podcastDate)
     
     podcastsWrapper.append(podcast())
 
