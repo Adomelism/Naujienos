@@ -32,7 +32,7 @@ export default function podcast() {
     podcast.append(podcastControls, podcastContent, podcastTitle, podcastDate)
     podcastControls.append(podcastImage, podcastLength, podcastPlay)
     
-    // podcastsWrapper.append(podcast())
+    podcastsWrapper.append(podcast())
 
 
     return podcast;

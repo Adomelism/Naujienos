@@ -1,5 +1,5 @@
 import {PODCAST_DATA} from "./config.js";
-// import podcast from "./podcast.js";
+import podcast from "./podcast.js";
 
 export default function podcastsWrapper(title) {
     const podcastsWrapper = document.createElement('div')
@@ -10,11 +10,13 @@ export default function podcastsWrapper(title) {
         sectionTitle.classList.add('section-title')
         sectionTitle.textContent = title
         podcastsWrapper.append(sectionTitle)
-            //  podcast())
     }
 
     PODCAST_DATA.forEach(podcastData => {
         let {podcastImageSrc, podcastLength, podcastTitle, podcastDate} = podcastData
+        // const podcastElement = podcast(podcastData)
+        // console.log(podcastData)
+        // podcastsWrapper.append(podcastElement)
         // console.log(podcastImageSrc)
         // console.log(podcastLength)
         // console.log(podcastTitle)
