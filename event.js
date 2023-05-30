@@ -1,8 +1,15 @@
 export default function event(data) {
+
+    let {day, imageSrc, location, month, title, url} = data;
+
+    if (!title || !url) {
+        return '';
+    }
+
     const event = document.createElement('div')
     event.classList.add('event')
+    // event.src = url /// HOW TO APPEND IF NO CLASS A HREF?
 
-    let {day, imageSrc, location, month, title} = data;
 
     const imageWrapper = document.createElement('div')
     imageWrapper.classList.add('image-wrapper')

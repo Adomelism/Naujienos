@@ -14,7 +14,7 @@ export default function newsWrapper(title) {
     newsWrapper.append(sectionTitle)
     }
 
-    newsWrapper.append(mainNews(), secondaryNews(), buttonLarge("Visos Naujienos"));
+    newsWrapper.append(mainNews(), secondaryNews(), buttonLarge("Visos Naujienos", "#"));
 
     return newsWrapper;
 }
