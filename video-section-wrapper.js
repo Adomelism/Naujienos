@@ -12,10 +12,14 @@ export default function videoSectionWrapper(title) {
     videoWrapper.classList.add('video-wrapper')
     videoWrapper.src = "https://www.youtube.com/embed/b8dGCsP75HA"
 
+    const videoExtraText = document.createElement('span')
+    videoExtraText.classList.add('video-extra-text')
+    videoExtraText.textContent = "Jei galiu aš – gali ir tu!"
 
 
 
-    videoSectionWrapper.append(sectionTitle, videoWrapper, buttonLarge("Visi vaizdo įrašai", "#"))
+    videoWrapper.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/b8dGCsP75HA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>`
+    videoSectionWrapper.append(sectionTitle, videoWrapper, videoExtraText, buttonLarge("Visi vaizdo įrašai", "#"))
 
     return videoSectionWrapper;
 }

@@ -1,6 +1,7 @@
 import mainNews from './main-news.js';
 import secondaryNews from './secondary-news.js';
 import buttonLarge from './buttonLarge.js';
+import videoSectionWrapper from './video-section-wrapper.js';
 
 export default function newsWrapper(title) {
     const newsWrapper = document.createElement('div');
@@ -14,7 +15,7 @@ export default function newsWrapper(title) {
     newsWrapper.append(sectionTitle)
     }
 
-    newsWrapper.append(mainNews(), secondaryNews(), buttonLarge("Visos Naujienos", "#"));
+    newsWrapper.append(mainNews(), secondaryNews(), buttonLarge("Visos Naujienos", "#"), videoSectionWrapper());
 
     return newsWrapper;
 }
